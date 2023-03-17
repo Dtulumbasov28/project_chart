@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			
+			<div class="diag">
+				<ul class="diag__list">
+					<li class="diag__item">
+						<div class="diag__title">
+							<span class="bold">980 </span> человек
+						</div>
+						<div class="diag__desc">Conversion angel investor entrepreneur first mover advantage. Handshake
+							infographic mass market crowdfunding iteration. Traction stock user experience deployment
+							beta innovator incubator</div>
+					</li>
+					<li class="diag__item">
+						<div class="diag__title">
+							<span class="bold">900 </span> человек
+						</div>
+						<div class="diag__desc">Conversion angel investor entrepreneur first mover advantage. Handshake
+							infographic mass market crowdfunding iteration. Traction stock user experience deployment
+							beta innovator incubator</div>
+					</li>
+					<li class="diag__item">
+						<div class="diag__title">
+							<span class="bold">310 </span> человек
+						</div>
+						<div class="diag__desc">Conversion angel investor entrepreneur first mover advantage. Handshake
+							infographic mass market crowdfunding iteration. Traction stock user experience deployment
+							beta innovator incubator</div>
+					</li>
+				</ul>
+
+				<div class="diag__canvas">
+					<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script
+		src="https://www.jqueryscript.net/demo/Number-Increment-Animations-with-jQuery-spincrement/jquery.spincrement.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
